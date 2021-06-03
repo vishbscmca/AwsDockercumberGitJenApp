@@ -11,7 +11,7 @@ public class ApplicationInfoController {
 	
 	@GetMapping("/info")
 	public String getAppInfo() {
-		return "Spring application in Java + AWS + Git + Jenkins + tomcat+ cucumber successfully integrated, will integrate cucumber soon";
+		return "Spring application in Java + AWS + docker + Git + Jenkins + tomcat+ cucumber successfully integrated.";
 	}
 
 	
